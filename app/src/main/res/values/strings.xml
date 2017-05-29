@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">EmployeeWorkRecord</string>
+    <string name="username">Username</string>
+    <string name="register">Register?</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="enter_name">Enter Name</string>
 </resources>

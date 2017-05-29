@@ -5,19 +5,16 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class MainActivity : AppCompatActivity() {
+class RegisterActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_register)
+
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
 
-    fun login(view: View){
-
-    }
-
-    fun register(view:View){
-        val intent = Intent(this,RegisterActivity::class.java)
-        startActivity(intent)
+    fun registerUser(view : View){
+       finish()
     }
 }
